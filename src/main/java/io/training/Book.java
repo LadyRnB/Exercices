@@ -1,4 +1,4 @@
-package java.training;
+package io.training;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,4 +1,4 @@
-package java.training;
+package io.training;
 
 public enum Language {
     ENGLISH,
