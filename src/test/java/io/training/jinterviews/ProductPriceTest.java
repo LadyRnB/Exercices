@@ -4,13 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static io.training.jinterviews.ProductPrice.CustomerType.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class ProductPriceTest {
     ProductPrice productPrice = new ProductPrice();
 
     @Test
-    public void testCalculatePrice() throws Exception {//Act
+    public void testCalculatePrice() throws Exception {
         assertEquals(80.0, productPrice.calculatePrice(100.0, GOLD, false));
 
         assertEquals(90.0, productPrice.calculatePrice(100.0, GOLD, true));
