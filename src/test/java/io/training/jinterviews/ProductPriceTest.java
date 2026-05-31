@@ -21,6 +21,5 @@ public class ProductPriceTest {
         assertEquals(100.0, productPrice.calculatePrice(100.0, NORMAL, false));
 
         assertEquals(110.0, productPrice.calculatePrice(100.0, NORMAL, true));
-
     }
 }
