@@ -1,7 +1,7 @@
-package java.training.streams;
+package training.streams;
 
 import java.time.LocalDate;
-import java.training.Book;
+import training.Book;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Set;

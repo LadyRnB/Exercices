@@ -1,9 +1,9 @@
-package java.training;
+package training;
 
 public enum Language {
     ENGLISH,
     ARABIC,
-    GERMANY,
+    GERMAN,
     FRENCH,
     SPANISH,
     PERSIAN,
