@@ -2,6 +2,8 @@ package training.streams;
 
 import java.time.LocalDate;
 import training.Book;
+
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
@@ -11,7 +13,10 @@ public class StreamOperations {
     static void main(String[] args) {}
 
     public Set<Book.Genre> listBooksGenres(List<Book> books) {
-        return books.stream()
+        if(books == null) {
+            return Collections.emptySet();
+        }
+            return books.stream()
                     .map(Book::genre)
                     .collect(Collectors.toSet());
     }
